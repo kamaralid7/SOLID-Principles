@@ -31,3 +31,21 @@ The reason is the source code has already passed the unit testing, so changing i
 
 This principle clearly states that when you have a parent class and a child class in your project, 
 the child class can be a substitution of the parent class without changing the correctness of the application.
+
+#	Interface Segregation Principle
+“Clients should not be forced to implement interfaces they don't use. 
+Instead of one fat interface, many small interfaces are preferred based on groups of functions, each one serving one submodule.”
+
+
+#	Dependency Inversion Principle
+It’s the last principle in SOLID and states two critical parts as follows:
+
+High-level modules should not depend on low-level modules. Both should depend on abstractions (interface).
+Abstractions should not depend upon details. Details should depend on abstractions.
+The high-level modules include the important policy decisions and business models of an application. 
+If these modules depend on the lower-level details, changes to the lower-level modules can directly impact the higher-level ones, 
+forcing them to change in turn. 
+When building a real-time application, 
+the critical point is always to keep the high-level module and low-level module loosely coupled as much as possible. 
+It helps to protect the other class while you are making changes to any specific class. 
+All in all, instead of a high-level module depending on a low-level module, both should depend on an abstraction.
