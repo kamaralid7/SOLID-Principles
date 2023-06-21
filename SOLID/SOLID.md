@@ -49,3 +49,6 @@ When building a real-time application,
 the critical point is always to keep the high-level module and low-level module loosely coupled as much as possible. 
 It helps to protect the other class while you are making changes to any specific class. 
 All in all, instead of a high-level module depending on a low-level module, both should depend on an abstraction.
+
+
+https://learn.microsoft.com/en-us/archive/msdn-magazine/2014/may/csharp-best-practices-dangers-of-violating-solid-principles-in-csharp
